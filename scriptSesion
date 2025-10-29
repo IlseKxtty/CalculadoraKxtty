@@ -1,0 +1,26 @@
+//DOM
+//Document Object Model
+const display = document.querySelector('#display');
+display.innerHTML = '0';
+//DEBUGEAR
+console.log(display);
+
+
+const buttons = document.querySelectorAll('.btn');
+console.log(buttons);
+
+//[1,2,3,4,5]
+//FOR 
+//Se ejecutan 5 veces.//El arreglo es el conjunto de botones
+buttons.forEach(button =>{
+    console.log(button);
+    //EVENTO
+    button.addEventListener('click', (e)=>{
+        const value = e.target.innerText;
+    })
+})
+
+class Calculator {
+    sum(value1, value2) {
+        return value1 + value2;}
+    }

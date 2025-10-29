@@ -18,8 +18,8 @@ body {
   background-color: #2b1f2f;
   border: 3px solid #c38ccc;
   border-radius: 15px;
-  padding: 25px;
-  width: 350px;
+  padding: 50px;
+  width: 450px;
   max-width: 90%;
   box-shadow: 0 0 25px #c38ccc80;
 }
@@ -57,7 +57,7 @@ h1 {
 .btn {
   background-color: #3b2a3d;
   border: none;
-  padding: 15px;
+  padding: 20px;
   font-size: 1.2rem;
   color: #f7d9fa;
   border-radius: 10px;
